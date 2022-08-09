@@ -11,6 +11,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 
+/*
+ * Preview annotation on argument-less composable functions can simplify development.
+ * You can see how particular composable function looks directly in the ide panel
+ */
 @Composable
 @Preview
 fun App() {
